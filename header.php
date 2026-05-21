@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
+    <title><php?= echo "$page_title"; ?></title>
 </head>
 <body>
     <nav>
@@ -10,7 +11,7 @@
         
         <ul>
             <li><a href="index.php">Home</a></li>
-            <li><a href="index.php">Calculations</a></li>
+            <li><a href="/multi_cal/calculations.php">Calculations</a></li>
             <li><a href="about.php">About</a></li>
             <li><a href="contact.php">Contact</a></li>
         </ul>

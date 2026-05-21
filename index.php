@@ -7,8 +7,10 @@
 </head>
 <?=
     include_once 'header.php';
+    $page_title = "Home";
 ?>
 <body>
-    
-</body>
+    <div class="home_body">
+        <h2>Welcome to Lm Calculations</h2>
+        />
 </html>
