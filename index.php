@@ -12,5 +12,14 @@
 <body>
     <div class="home_body">
         <h2>Welcome to Lm Calculations</h2>
-        />
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam.</p>
+
+    </div>
+    <div>>
+        <img src="multi_cal/image/img1.jpg" alt="image1" class="home_img">
+        <img src="images/calculator.png" alt="calculator" class="home_img">
+        <img src="images/calculator.png" alt="calculator" class="home_img">
+        <img src="images/calculator.png" alt="calculator" class="home_img">
+    </div>    
+</body>
 </html>

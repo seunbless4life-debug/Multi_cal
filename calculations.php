@@ -11,7 +11,7 @@
     <div class="cal_link_main">
         <div class="cal_link1">
             <a href="/">Age Calculator</a>
-            <a href="index.php">BMI Calculator</a>
+            <a href="cal/BMI%20Cal.php">BMI Calculator</a>
             <a href="index.php">CGPA Calculator</a>
             <a href="index.php">Currency Calculator</a>
             <a href="index.php">Electric Calculator</a>

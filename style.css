@@ -22,7 +22,12 @@ nav h1{
     border: 5px solid rgba(83, 9, 9, 0.8);
     border-radius: 50%;
     padding: 1rem;
+}
 
+nav h1:hover{
+    color: rgb(150, 14, 14);
+    cursor: pointer;
+    border: 5px solid rgba(192, 187, 187, 0.8);
 }
 
 nav ul{
@@ -107,4 +112,33 @@ nav ul li a:hover{
     width: 70%;
     font-family: 'Arial', sans-serif;
     color: rgb(207, 202, 202);
+}
+
+.contact-container{
+    background-image: url('image/Main Cal Image.jpg');
+    background-size: cover;
+    padding-top:0.5px;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.contact-container h2{
+    color:rgba(0, 0, 0, 0.562);
+    margin-left: 3rem;
+    font-size: 2.5rem;
+    font: bolder;
+    font-family: 'Arial', sans-serif;
+}
+
+.contact-container p{
+    color:rgb(109, 15, 15);
+    margin-left:3rem;
+    font-size: 1.2rem;
+    font: bolder;
+    font-family: 'Arial', sans-serif;
+    width: 65%;
+    margin-bottom: 6rem;
 }
