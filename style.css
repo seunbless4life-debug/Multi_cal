@@ -142,3 +142,89 @@ nav ul li a:hover{
     width: 65%;
     margin-bottom: 6rem;
 }
+
+
+/* Responsive Design for BMI Calculator */
+.bmi_calculator{
+    padding-top: 4rem;
+    background-color: rgb(143, 124, 124);
+}
+
+.bmi_calculator h2{
+    color: rgb(161, 35, 35);
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.bmi_calculator p{
+    width: 70%;
+    margin:0.1rem auto;
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+}
+
+.bmi_calculator_form{
+    margin-top: 2.5rem;
+    padding-bottom: 25vh;
+}
+
+input[type="number"]{
+    width: 45%;
+    padding: 1.1rem;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: rgba(214, 188, 188, 0.445);
+    transition: 0.2s ease-in-out;
+    color: rgb(34, 33, 33);
+    font-size: 1rem;
+
+}
+input[type="number"]:hover{
+    width:50%;
+    background-color: rgba(233, 222, 222, 0.445);
+}
+
+input::placeholder {
+    color: rgb(95, 19, 19);
+}
+
+input[type="submit"]{
+    width: 14%;
+    background-color: rgb(109, 15, 15);
+    color: white;
+    font-weight: 900;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    padding: 0.7rem;
+    margin-left: 16%;
+}
+input[type="submit"]:hover{
+    width: 14.3%;
+    background-color: rgb(133, 53, 53);
+    color: black;
+    border: none;
+    transition: 0.3s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.calculateforloan{
+    color: rgb(109, 15, 15);
+    text-align: center;
+    margin-top: 4rem;
+}
