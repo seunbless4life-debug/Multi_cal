@@ -306,3 +306,14 @@ input[type="submit"]:hover{
     text-align: center;
     margin-top: 4rem;
 }
+
+
+/* ///////////////////////////////////////// */
+.abtus_main_pic{
+    background-image: url('image/img4.jpg');
+    background-size: cover;
+    height: 40vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
