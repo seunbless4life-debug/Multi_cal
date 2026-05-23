@@ -18,7 +18,7 @@
         </div>
         <div class="cal_link2">
             <a href="index.php">Grade Calculator</a>
-            <a href="Loan_cal.php">Loan Calculator</a>
+            <a href="Loan_Cal.php">Loan Calculator</a>
             <a href="index.php">Salary Calculator</a>
             <a href="index.php">Tax Calculator</a>
             <a href="index.php">Tip Calculator</a></div>

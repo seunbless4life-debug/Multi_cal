@@ -1,4 +1,4 @@
-<?=
+<?php
 include_once 'header.php';
 ?>
 
@@ -8,7 +8,7 @@ include_once 'header.php';
 
     <div class="loan_calculator_form">
         <div class="form_calculator">
-            <form action="" method="POST">
+            <form action="result.php" method="POST">
                 <p>
                     <input type="number" id="loan_value" name="loan_value" autofocus required placeholder="How much loan do you wish(000,000):">
                 </p>
@@ -19,28 +19,7 @@ include_once 'header.php';
                 <input type="submit" value="Calculate">
             </form>
         </div>
-        <div class="results">
-            <p>
-                <?php 
-                 $Loan_value =$_POST['loan_value'];
-                 $tenor = $_POST['tenor'];
-                case1:($Loan_value <= 100000 && $tenor <= 12):{
-                    $total_loan =$loan_value+($loan_value*0.10);
-                    echo "Your Loan is: ₦$total_loan";
-                    echo "interest on $total_loan is: 10%";
-                    echo "Monthly repayment is: $total_loan / $tenor;
-                    break;
-                    
-                    . number_format($total_loan, 2);
-                } && $tenor <= 60):
-                    $interest = 0.05;
-                    $total_interest = $Loan_value * $interest;
-                    $total_repayment = $Loan_value + $total_interest;
-                    echo "Your total repayment amount is: " . number_format($total_repayment, 2);
-                    break;
-            
-                ?>
-            </p>
-        </div>
     </div>    
 </div>
+
+                

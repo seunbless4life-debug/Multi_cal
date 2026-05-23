@@ -16,7 +16,7 @@
             <li><a href="contact.php">Contact</a></li>
         </ul>
 
-        <button class="btn">Login</button>
+        <a href="profile_acct.php" class="btn">Log-in</a>
     </nav>
     <!-- <footer>
         <p>Copyright &copy; 2024 Lm</p>

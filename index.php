@@ -1,25 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-</head>
 <?=
-    include_once 'header.php';
-    $page_title = "Home";
+include_once 'header.php';
 ?>
+
 <body>
     <div class="home_body">
         <h2>Welcome to Lm Calculations</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam.</p>
-
+        <p>We welcome you officially to Lm Calculations!, Lm is an offical website designed to help solve complex mathematical excpression and real world problems making it easy to understand. We are always available to assist you with your calculations. Kindly explore our features and let us know if you have any questions. Feel free to drop us a line of comment about your experience.</p>
     </div>
-    <div>>
-        <img src="multi_cal/image/img1.jpg" alt="image1" class="home_img">
-        <img src="images/calculator.png" alt="calculator" class="home_img">
-        <img src="images/calculator.png" alt="calculator" class="home_img">
-        <img src="images/calculator.png" alt="calculator" class="home_img">
+
+    <div class="index_images">
+        <img src="image/img1.jpg" class="home_image" alt="image1">
+        <img src="image/img2.jpg" class="home_image" alt="image2">
+        <img src="image/img3.jpg" class="home_image" alt="image3">
+        <img src="image/img4.jpg" class="home_image" alt="image4">
     </div>    
 </body>
-</html>
