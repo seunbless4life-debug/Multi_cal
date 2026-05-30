@@ -1,4 +1,5 @@
-<?=
+<?php
+$title = "Sign-up";
 include 'header.php';
 ?>
 

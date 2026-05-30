@@ -1,7 +1,8 @@
 <?php
+    $title = "Contact";  
     require_once 'header.php';
-    $page_title = "Contact";  
 ?> 
+
 <html>
 <body>
 <div class="contact-container">

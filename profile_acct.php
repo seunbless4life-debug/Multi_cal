@@ -1,5 +1,7 @@
-<?=
+<?php
+$title = "Log-in";
 include_once 'header.php';
+?>
 
 // $client_mail = $_POST['email'];
 //     $client_password = $_POST['password'];
@@ -10,7 +12,7 @@ include_once 'header.php';
 //         ?>
 //     </div>
 
-?>
+
 
 <div class="profile_acct">
     <h2>Log-in to Your Lm Account</h2>

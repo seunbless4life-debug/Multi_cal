@@ -1,5 +1,5 @@
 <?php 
-    $page_title = "BMI Calculator";
+    $title = "BMI Calculator";
     require_once 'header.php';
 ?>
 

@@ -1,4 +1,5 @@
 <?php
+$title = "Loan Calculator";
 include_once 'header.php';
 ?>
 

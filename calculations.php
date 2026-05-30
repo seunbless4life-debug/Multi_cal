@@ -1,8 +1,6 @@
-
-<body>
-    <?php 
+   <?php 
+    $title = "Calculations";
     include_once 'header.php';
-    $page_title = "Calculations";
     ?>
 </body>
 <div class="calculations_body">
@@ -19,7 +17,7 @@
         <div class="cal_link2">
             <a href="index.php">Grade Calculator</a>
             <a href="Loan_Cal.php">Loan Calculator</a>
-            <a href="index.php">Salary Calculator</a>
+            <a href="Salary_Cal.php">Salary Calculator</a>
             <a href="index.php">Tax Calculator</a>
             <a href="index.php">Tip Calculator</a></div>
         </div>
