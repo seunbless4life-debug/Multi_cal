@@ -9,6 +9,9 @@ body{
     color: white;
 }
 
+
+/* Navbar Styles */
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -70,6 +73,8 @@ nav ul li a:hover{
     color: white;
     box-shadow: 0 0 30px rgba(182, 164, 164, 0.8);
 }
+
+/* Calculations Page Styles */
 
 .cal_link_main{
     display: flex;
@@ -313,7 +318,4 @@ input[type="submit"]:hover{
     background-image: url('image/img4.jpg');
     background-size: cover;
     height: 40vh;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
 }
