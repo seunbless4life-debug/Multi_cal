@@ -4,20 +4,7 @@ include_once 'header.php';
 
 ?> -->
 
-<?php 
-     $Loan_value = $_POST['loan_value'];
-     $tenor = $_POST['tenor'];
-     $total_loan = "";
-    
-    if($Loan_value <= 1000000 && $tenor <= 6){
-    $rate === 5%;
-    $total_loan = $Loan_value + ($Loan_value * $rate);
 
-    echo" Congratulations, you have been approved for a loan of $total_loan.00, with a tenor of $tenor months and an interest rate of 5%. <br> Please note that your total repayment is $total_loan.00, and your monthly repayment is "($total_loan / $tenor).".00";
-    
-    }
-    echo "You will get a loan."
-?>
           
 
 

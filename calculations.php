@@ -7,7 +7,7 @@
 </body>
 <div class="calculations_body">
     <h2>Welcome to the Home of Calculations</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam.</p>
+    <p>We thank you for visiting our Lm calculation page! we have various links to guilde you through severial calculations that can be mede ranging from simple to calsulations to even more complex arithmetic calculations making it seamless. We have to get feedbacks about your experience in our contact page. Thank you!</p>
     <div class="cal_link_main">
         <div class="cal_link1">
             <a href="/">Age Calculator</a>

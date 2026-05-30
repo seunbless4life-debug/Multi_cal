@@ -307,15 +307,40 @@ input[type="submit"]:hover{
 
 
 
+/* Loan Calculator Styles */
 
-.calculateforloan{
-    color: rgb(109, 15, 15);
+.loan_calculator h2{
+    color: rgb(161, 35, 35);
     text-align: center;
-    margin-top: 4rem;
+    font-size: 2.5rem;
+    margin-top: 2.5rem;
+}
+
+.loan_calculator .pagemessage{
+    width: 65%;
+    max-width: 85%;
+    margin: 0.1rem auto 4rem auto;
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+}
+
+.bmi_calculator p{
+    width: 70%;
+    margin:0.1rem auto;
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+}
+
+.form_calculator p{
+    width: 70%;
+    margin:0.1rem auto;
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
 }
 
 
-/* ///////////////////////////////////////// */
+
+/* /   ABOUT US    */
 .abtus_main_pic{
     background-image: url('image/img4.jpg');
     background-size: cover;
