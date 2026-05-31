@@ -324,7 +324,7 @@ input[type="submit"]:hover{
     font-size: 1rem;
 }
 
-.bmi_calculator p{
+.loan_calculator p{
     width: 70%;
     margin:0.1rem auto;
     font-family: 'Arial', sans-serif;
@@ -338,6 +338,77 @@ input[type="submit"]:hover{
     font-size: 1rem;
 }
 
+/* salary calculator styles */
+
+.salary_calculator h2{
+    color: rgb(161, 35, 35);
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 2.5rem;
+}
+
+.salary_calculator .pagemessage{
+    width: 65%;
+    max-width: 85%;
+    margin: 0.1rem auto 4rem auto;
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+}
+
+.salary_calculator p{
+    width: 70%;
+    margin:0.1rem auto;
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+}
+
+/* age calculator styles */
+
+.age_calculator h2{
+    color: rgb(161, 35, 35);
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 2.5rem;
+}
+
+.age_calculator .pagemessage{
+    width: 65%;
+    max-width: 85%;
+    margin: 0.1rem auto 4rem auto;
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+}
+
+.age_calculator p{
+    width: 70%;
+    margin:0.1rem auto;
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+}
+
+/* Tip Calculator Styles */
+
+.tip_calculator h2{
+    color: rgb(161, 35, 35);
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 2.5rem;
+}
+
+.tip_calculator .pagemessage{
+    width: 65%;
+    max-width: 85%;
+    margin: 0.1rem auto 4rem auto;
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+}
+
+.tip_calculator p{
+    width: 70%;
+    margin:0.1rem auto;
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+}
 
 
 /* /   ABOUT US    */

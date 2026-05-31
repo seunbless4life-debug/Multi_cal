@@ -43,15 +43,16 @@ include_once 'header.php';
 
                     $total_loan = "";
 
-                    $total_loan = $Loan_value + number_format($Loan_value * $rate/100, 4);          
+                    $total_loan = $Loan_value + ($Loan_value * $rate/100);          
 
-                    echo "<br><br><br><br><br><br><p>CONGRATULATIONS!!!,<br><br> You have been approved a loan of $Loan_value, with a tenor of $tenor Months and your Interest Rate is $rate." . "<br><br></p>";
+                    echo "<br><br><br><br><br><br><p>CONGRATULATIONS!!!,<br><br> You have been approved a loan of <b>$Loan_value</b>, <br>A tenor of $tenor Months <br> your Interest Rate is $rate%" . "<br><br></p>";
 
                     echo "Please note that your total repayment is $total_loan.00, and your monthly repayment is " . number_format(($total_loan / $tenor), 2) . ".00" . "<br><br>";
 
                         for($i = 1; $i <= $tenor; $i++){
                             echo "Repayment $i payment is " . number_format(($total_loan / $tenor), 2) .".00 <br>";
                         }
+                        
                 }
 
 
