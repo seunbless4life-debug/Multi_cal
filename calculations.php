@@ -12,10 +12,10 @@
             <a href="BMI_Cal.php">BMI Calculator</a>
             <a href="index.php">CGPA Calculator</a>
             <a href="index.php">Currency Calculator</a>
-            <a href="index.php">Electric Calculator</a>
+            <a href="Electric_Bill_Cal.php">Electric Calculator</a>
         </div>
         <div class="cal_link2">
-            <a href="index.php">Grade Calculator</a>
+            <a href="Grade_Cal.php">Grade Calculator</a>
             <a href="Loan_Cal.php">Loan Calculator</a>
             <a href="Salary_Cal.php">Salary Calculator</a>
             <a href="Tax_Cal.php">Tax Calculator</a>
