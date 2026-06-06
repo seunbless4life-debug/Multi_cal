@@ -255,15 +255,17 @@ input[type="submit"]:hover{
 }
 
 .profile_acct{
-    background-color: rgb(224, 217, 217);
+    text-align: center;
+    background-color: rgb(233, 212, 212);
     padding: 0.1px;
+    display: flex;
 }
 
 .profile_acct h2{
     color: rgb(161, 35, 35);
     text-align: center;
     font-size: 2.5rem;
-    margin: 2.5rem 0 4rem 0;
+    margin: 0 auto 4rem auto;
     font-family: 'Arial', sans-serif;
 }
 
@@ -277,16 +279,15 @@ input[type="submit"]:hover{
     transition: 0.2s ease-in-out;
     color: rgb(34, 33, 33);
     font-size: 1rem;
-    margin-left: 20%;
 }
 
 .profile_acct input[type="submit"]{
-    margin-left: 35%;
+    margin-left: 0; 
 }
 
 .profile_acct .register{
     color: rgb(185, 29, 29);
-    margin: 2rem auto 10rem 10rem;
+    margin: 2rem auto 10rem auto;
 }
 
 .profile_acct .register a{
@@ -462,4 +463,27 @@ input[type="radio"]:first-child{
     background-image: url('image/img4.jpg');
     background-size: cover;
     height: 40vh;
+}
+
+
+/* Register Account Styles */
+.register_page{
+    background-color: rgb(90, 54, 54);
+    padding: 0.1px;
+}
+
+.register_page h2{
+    color: rgb(161, 35, 35);
+    Text-align: center;
+    font-size: 2.5rem;
+    margin: 2.5rem auto 2rem auto;
+}
+
+.register_page .register_acct{
+    display: flex;
+    justify-content: space-around;
+}
+
+.register_page .register_acct .thesameatyle{
+    width:40vw;
 }

@@ -27,14 +27,18 @@ include_once 'header.php';
             $courses = $_POST['courses'];
             $grade = $_POST['grade'];
 
-            if($grade >= 90 && $grade <= 100){
-               echo "<h3> Hello $names! Your grade for $courses is <h2>A</h2> which means you have an excellent performance.</h3>";
-            }elseif($grade >= 80 && $grade < 90){
+            if($grade >= 70 && $grade <= 100){
+               echo "<h3> Hello $names! Your grade for $courses is <h2>A1</h2> which means you have an excellent performance.</h3>";
+            }elseif($grade >= 65 && $grade < 70){
+                echo "<h3> Hello $names! Your grade for $courses is <h2>B6</h2> which means you have a good performance.</h3>";
+            }elseif($grade >= 60 && $grade < 65){
+                echo "<h3> Hello $names! Your grade for $courses is <h2>B2</h2> which means you have a good performance.</h3>";
+            }elseif($grade >= 50 && $grade < 60){
                 echo "<h3> Hello $names! Your grade for $courses is <h2>B</h2> which means you have a good performance.</h3>";
-            }elseif($grade >= 70 && $grade < 80){
-                echo "<h3> Hello $names! Your grade for $courses is <h2>C</h2> which means you have a satisfactory performance.</h3>";
-            }elseif($grade >= 60 && $grade < 70){
-                echo "<h3> Hello $names! Your grade for $courses is <h2>D</h2> which means you have a poor performance.</h3>";
-            }elseif($grade >= 0 && $grade < 60){
+            }elseif($grade >= 45 && $grade < 50){
+                echo "<h3> Hello $names! Your grade for $courses is <h2>D2</h2> which means you have a satisfactory performance.</h3>";
+            }elseif($grade >= 40 && $grade < 45){
+                echo "<h3> Hello $names! Your grade for $courses is <h2>D1</h2> which means you have a poor performance.</h3>";
+            }elseif($grade >= 0 && $grade < 40){
                 echo "<h3> Hello $names! Your grade for $courses is <h2>F</h2> which means you have failed the course. Please work harder next time.</h3>";
             }
