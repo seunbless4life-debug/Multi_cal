@@ -258,14 +258,13 @@ input[type="submit"]:hover{
     text-align: center;
     background-color: rgb(233, 212, 212);
     padding: 0.1px;
-    display: flex;
 }
 
 .profile_acct h2{
     color: rgb(161, 35, 35);
     text-align: center;
     font-size: 2.5rem;
-    margin: 0 auto 4rem auto;
+    margin: 2rem auto 4rem auto;
     font-family: 'Arial', sans-serif;
 }
 
