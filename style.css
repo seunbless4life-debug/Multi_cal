@@ -486,3 +486,10 @@ input[type="radio"]:first-child{
 .register_page .register_acct .thesameatyle{
     width:40vw;
 }
+
+.bmi_calculator_result{
+    width: 70%;
+    margin:0.1rem auto;
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+}

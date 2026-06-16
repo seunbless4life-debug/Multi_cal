@@ -7,7 +7,7 @@ include_once 'header.php';
     <h2>Electric Bill Calculator</h2>
     <form action="" method="POST">
         <p>
-            <label>Please Select Your Electricity Consumption Machine:
+            <label>Please Select Your Electricity Consumption Machine:</label><br>
                 <p>
                     <input type="radio" name="machine_type" value="pre_paid" id="machine_pre_paid">
                     <label for="machine_pre_paid">Pre-Paid Meter</label>
